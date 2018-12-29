@@ -1,0 +1,6 @@
+#
+# /etc/ports/akosela.httpup: Andy Kosela's port collection
+#
+
+ROOT_DIR=/usr/ports/akosela
+URL=https://raw.githubusercontent.com/akosela/crux-ports/master/

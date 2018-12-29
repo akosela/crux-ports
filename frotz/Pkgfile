@@ -1,0 +1,14 @@
+# Description: Infocom games interpreter
+# URL:         http://frotz.sourceforge.net
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+
+name=frotz
+version=2.44
+release=1
+source=(http://www.ifarchive.org/if-archive/infocom/interpreters/frotz/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	make
+	make PREFIX=$PKG/usr CONFIG_DIR=/usr/etc install
+}
