@@ -1,4 +1,4 @@
-\.git$
+\.git
 \.svn$
 \.tar\.gz$
 \.tgz$
@@ -12,3 +12,4 @@ sync.sh
 \.gif$
 \.gem$
 index.html
+akosela.*$
