@@ -1,0 +1,18 @@
+# Description: Concurrent ssh client
+# URL:         https://github.com/akosela/go-cs
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  go
+
+name=go-cs
+version=0.9
+release=1
+source=(https://github.com/akosela/go-cs/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version/cs
+	go build -ldflags "-s" cs.go
+	mkdir -p $PKG/usr/bin && mkdir -p $PKG/usr/man/man1
+	install cs $PKG/usr/bin/cs
+	install ../cs.1 $PKG/usr/man/man1/cs.1
+        gzip $PKG/usr/man/man1/cs.1
+}
