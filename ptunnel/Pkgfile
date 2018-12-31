@@ -1,0 +1,14 @@
+# Description: Tunnel TCP connections over ICMP echo request and reply
+# URL:         http://www.cs.uit.no/~daniels/PingTunnel
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+
+name=ptunnel
+version=0.72
+release=1
+source=(http://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-$version.tar.gz)
+
+build() {
+	cd PingTunnel
+	make
+	make prefix=$PKG/usr install
+}

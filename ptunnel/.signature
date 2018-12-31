@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/akosela.pub
+RWQL+NVTgarWb2zSARa1xc5Ej1LkUaVEANpnNtpAMKdeXiD4joFyQx3oqU7lyrjC3t2bdGHZMIXr18UXsREF9i7LfyJKptl0GQ8=
+SHA256 (Pkgfile) = b5ca487eaa76d47fbabfd3541ab31aba3c8143f2837d3e0dad54f4d5b46a23d4
+SHA256 (.footprint) = e5bd68e4d2818e9af214e866dabda5626d1c408d0e19b6551d6627b16f775616
+SHA256 (PingTunnel-0.72.tar.gz) = b318f7aa7d88918b6269d054a7e26f04f97d8870f47bd49a76cb2c99c73407a4
