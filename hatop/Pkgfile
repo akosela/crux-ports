@@ -1,0 +1,16 @@
+# Description: Interactive ncurses client for HAProxy
+# URL:         http://feurix.org/projects/hatop
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  python haproxy
+
+name=hatop
+version=0.7.7
+release=1
+source=(https://github.com/feurix/hatop/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version
+	install -D -m 755 bin/hatop $PKG/usr/bin/hatop
+	install -D -m 644 man/hatop.1 $PKG/usr/man/man1/hatop.1
+	gzip $PKG/usr/man/man1/hatop.1
+}

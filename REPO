@@ -1,5 +1,6 @@
 d:varnish
 d:ptunnel
+d:hatop
 d:frotz
 d:go-cs
 d:memcached
@@ -12,6 +13,10 @@ f:60fd6f2020aaf9931184ee337be9f038:ptunnel/Pkgfile
 f:5eb2318dcdd7eaeea836687e01b37934:ptunnel/.footprint
 f:3a54caa4c521d16e3a6b26ae96d7cc51:ptunnel/.md5sum
 f:d6c44423f8f338edc1c2719b4e335341:ptunnel/.signature
+f:2d67287e27bc0effcc2f6ff2aa15f284:hatop/Pkgfile
+f:36c0ad608fb28cb0599d890e1a06fd99:hatop/.footprint
+f:17cce6f2be5e5816af0db2b9fc7a85df:hatop/.md5sum
+f:77346102fda392d16d96969143e6479c:hatop/.signature
 f:e81ca8dde33b3ea28fe599ffbabbedce:frotz/Pkgfile
 f:105dc66dd65b39350d7a404a21555790:frotz/.footprint
 f:bb23ceb362dcd1f89b1cc4a01f7bbc8c:frotz/.md5sum
