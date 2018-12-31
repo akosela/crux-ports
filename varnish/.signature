@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/akosela.pub
+RWQL+NVTgarWb9mO/0X4H6gMLoMThQ/QmYVyY2htf3xE9/ICbr2CGKodQ3Xh3uLNMuyrtCXCL0+MPXoFjsaiDN6xIk1iVzYjlA8=
+SHA256 (Pkgfile) = 7940b8a29463f12f0c0ae16d7425695db7bd1c1bcf79568b76576901ec31710d
+SHA256 (.footprint) = 2e038e41ab0d1b777e38db07985b7562a39c01a5842aa5852257975032bff70b
+SHA256 (varnish-6.1.1.tgz) = e0ee7c88a8149d8890b26fd9e1d909859ea895a39ca188d76a96869cff87c93d
+SHA256 (varnishd.rc) = d8ba190d65a8e0cad0acd892970a551f2f1b4728499040ea551fc845f58c3f74

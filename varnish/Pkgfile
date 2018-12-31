@@ -1,0 +1,22 @@
+# Description: High-performance HTTP accelerator
+# URL:         http://varnish-cache.org
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  docutils python-sphinx
+
+name=varnish
+version=6.1.1
+release=1
+source=(http://varnish-cache.org/_downloads/$name-$version.tgz \
+	varnishd.rc)
+
+build() {
+	cd $name-$version
+	./autogen.sh
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+
+	install -D -m 644 $SRC/$name-$version/etc/example.vcl \
+		$PKG/etc/varnish/default.vcl
+	install -D -m 755 $SRC/varnishd.rc $PKG/etc/rc.d/varnishd
+}
