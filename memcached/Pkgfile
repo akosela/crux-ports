@@ -1,0 +1,16 @@
+# Description: Distributed memory object caching system
+# URL:         http://www.memcached.org
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  libevent
+
+name=memcached
+version=1.5.12
+release=1
+source=(http://www.memcached.org/files/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
