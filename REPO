@@ -1,9 +1,14 @@
+d:svgalib
 d:varnish
 d:ptunnel
 d:hatop
 d:frotz
 d:go-cs
 d:memcached
+f:1d0952c2e69458d9d289b988f8080f1c:svgalib/Pkgfile
+f:ce79fe92582907fbea5ce830544d188a:svgalib/.footprint
+f:d29d43c4242952ab00b1acd246ccfe56:svgalib/.md5sum
+f:9925a8353a750f01d32e6000bfcdff65:svgalib/.signature
 f:a095631770e2f07a4e28d50d91a6f763:varnish/varnishd.rc
 f:1b088096902340c9f08facba1cd40655:varnish/Pkgfile
 f:4d33d7998858b1ed19d362267b37809b:varnish/.footprint

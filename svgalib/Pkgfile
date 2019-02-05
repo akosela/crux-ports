@@ -1,0 +1,14 @@
+# Description: Linux SVGA graphics library
+# URL:         http://www.svgalib.org
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+
+name=svgalib
+version=1.9.25
+release=1
+source=(https://github.com/akosela/svgalib/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	make TOPDIR=$PKG install
+	make TOPDIR=$PKG demoprogs
+}
