@@ -10,5 +10,5 @@ source=(http://www.ifarchive.org/if-archive/infocom/interpreters/frotz/$name-$ve
 build() {
 	cd $name-$version
 	make
-	make PREFIX=$PKG/usr CONFIG_DIR=/usr/etc install
+	make PREFIX=$PKG/usr MAN_PREFIX=$PKG/usr/share CONFIG_DIR=/usr/etc install
 }
