@@ -12,6 +12,6 @@ build() {
 	go build -ldflags "-s" cs.go
 
 	install -D -m 755 cs $PKG/usr/bin/cs
-	install -D -m 644 ../cs.1 $PKG/usr/man/man1/cs.1
-        gzip $PKG/usr/man/man1/cs.1
+	install -D -m 644 ../cs.1 $PKG/usr/share/man/man1/cs.1
+        gzip $PKG/usr/share/man/man1/cs.1
 }
