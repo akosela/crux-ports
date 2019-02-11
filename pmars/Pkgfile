@@ -1,0 +1,17 @@
+# Description: Portable Core War simulator
+# URL:         http://www.koth.org/pmars
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  svgalib
+# Option:      svga, curses, xwin
+
+name=pmars
+version=0.9.3
+release=1
+source=(https://github.com/akosela/pmars/archive/$version.tar.gz)
+option=svga
+
+build() {
+	cd $name-$version
+	make $option
+	make PREFIX=$PKG/usr MAN_PREFIX=$PKG/usr/share install
+}
