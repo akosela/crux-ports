@@ -1,0 +1,7 @@
+###############################
+# CRUX - install instructions #
+###############################
+
+# wget --no-ch https://raw.githubusercontent.com/akosela/crux-ports/master/akosela.{httpup,pub}
+# mv akosela.* /etc/ports
+# ports -u akosela
