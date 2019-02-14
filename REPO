@@ -9,7 +9,7 @@ d:memcached
 f:3c5164a71aa2fc8ecbab60b84daf5546:svgalib/Pkgfile
 f:99ecc60ec52476c68059e36a77bb65a0:svgalib/.footprint
 f:cdf6bdb709c4cb57f623824f8f301832:svgalib/.md5sum
-f:2eca809822ebedffa3bc872887ffcfa7:svgalib/.signature
+f:bdb2727c20277ce3b535253d6bcb3d90:svgalib/.signature
 f:bb3eec14e3247e4f8fcff7d0c38c0274:pmars/Pkgfile
 f:32c0c17555f3a45f4d36e45aad3bbf2c:pmars/.footprint
 f:bfd5688d5e3f9ac67eb75475ce74c388:pmars/.md5sum
@@ -27,6 +27,7 @@ f:5f7f26505509a89d78e446b35b170650:hatop/Pkgfile
 f:635159de3f7387667f496b612fb787d2:hatop/.footprint
 f:17cce6f2be5e5816af0db2b9fc7a85df:hatop/.md5sum
 f:c9e9da50f3588fabeac5598fa786ca07:hatop/.signature
+f:0c2a29c0e230407e26c2de24b569299f:README
 f:a18a272c5d6c4024e70d1269d842c0ce:frotz/Pkgfile
 f:c4feac852e357c4ef6fc0cc9d8b1e6c5:frotz/.footprint
 f:bb23ceb362dcd1f89b1cc4a01f7bbc8c:frotz/.md5sum
