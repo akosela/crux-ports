@@ -12,8 +12,8 @@ f:cdf6bdb709c4cb57f623824f8f301832:svgalib/.md5sum
 f:bdb2727c20277ce3b535253d6bcb3d90:svgalib/.signature
 f:bb3eec14e3247e4f8fcff7d0c38c0274:pmars/Pkgfile
 f:32c0c17555f3a45f4d36e45aad3bbf2c:pmars/.footprint
-f:bfd5688d5e3f9ac67eb75475ce74c388:pmars/.md5sum
-f:d71b163bbc7bfa040c01091de2477769:pmars/.signature
+f:6e7695055e37bf9e0f96ab4c50c2cbf2:pmars/.md5sum
+f:4b447ec9b979ede168ed5f6d89a9f684:pmars/.signature
 f:a095631770e2f07a4e28d50d91a6f763:varnish/varnishd.rc
 f:1b088096902340c9f08facba1cd40655:varnish/Pkgfile
 f:4d33d7998858b1ed19d362267b37809b:varnish/.footprint
