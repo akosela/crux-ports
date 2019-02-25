@@ -1,0 +1,25 @@
+# Description: Directory content manager (lite build)
+# URL:         http://www.kernel.org/pub/software/scm/git/docs
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+
+name=git-lite
+version=2.20.1
+release=1
+source=(http://www.kernel.org/pub/software/scm/git/git-{,manpages-}$version.tar.xz)
+
+build() {
+	cd git-$version
+	make CFLAGS="$CFLAGS" prefix=/usr gitexecdir=/usr/lib/git-core \
+		NO_EXPAT=YesPlease NO_PERL=YesPlease NO_PYTHON=YesPlease \
+		NO_TCLTK=YesPlease \
+		DESTDIR=$PKG install
+
+	cd $SRC
+	for i in man*; do
+		install -d $PKG/usr/man/$i
+		install -m 644 $i/* $PKG/usr/man/$i
+	done
+
+	rm $PKG/usr/man/man1/gitk.1
+	rm -rf $PKG/usr/share/locale
+}

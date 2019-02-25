@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/akosela.pub
+RWQL+NVTgarWb8jRXcuMAkhnbthe9Y2Y8BFqxrKbAns7VBFRyPW6hOlrI0yv4rkDpSRBk9VBqRWeJaQuEv0mPfIkYnKxc2Y/Bwk=
+SHA256 (Pkgfile) = 88b10a7479bf4df54e29e04533b5c3d9f9c0dcb4394f72cdea56022a3bf31cde
+SHA256 (.footprint) = 92405e98e500f16fbd8d2caf57c84002509aaacbb4a2a0b5f2d6088221faf3b4
+SHA256 (git-2.20.1.tar.xz) = 9d2e91e2faa2ea61ba0a70201d023b36f54d846314591a002c610ea2ab81c3e9
+SHA256 (git-manpages-2.20.1.tar.xz) = 060acce347cfb712d0c7dfe7578c5291fde2d3d807917b2828c8aae3c90876ba
