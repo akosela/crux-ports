@@ -1,6 +1,7 @@
 d:svgalib
 d:pmars
 d:varnish
+d:linuxdoc-tools
 d:cc65
 d:ptunnel
 d:hatop
@@ -21,6 +22,10 @@ f:1b088096902340c9f08facba1cd40655:varnish/Pkgfile
 f:4d33d7998858b1ed19d362267b37809b:varnish/.footprint
 f:b90376eb30862d9d2194732e0221e6a8:varnish/.md5sum
 f:a9511370cb6ebabe2aecbad89ce08757:varnish/.signature
+f:0e5cd2a132fcad24accbcbaf46df74fc:linuxdoc-tools/Pkgfile
+f:5afd8e553858195b4eb5802158a8278d:linuxdoc-tools/.footprint
+f:5774dcfc591cb267022fd7ce669714a0:linuxdoc-tools/.md5sum
+f:2bac556383c0b14e91951b9a23cb1021:linuxdoc-tools/.signature
 f:6b731b1eb3ad691e25d479792837bf37:cc65/Pkgfile
 f:8d9ff93da6d9d9a98a1ea2a5d03e97eb:cc65/.footprint
 f:0a1fa66915685d48c1d40da79b97d87f:cc65/.md5sum

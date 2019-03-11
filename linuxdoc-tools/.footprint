@@ -1,0 +1,194 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/linuxdoc
+-rwxr-xr-x	root/root	usr/bin/rtf2rtf
+lrwxrwxrwx	root/root	usr/bin/sgml2html -> linuxdoc
+lrwxrwxrwx	root/root	usr/bin/sgml2info -> linuxdoc
+lrwxrwxrwx	root/root	usr/bin/sgml2latex -> linuxdoc
+lrwxrwxrwx	root/root	usr/bin/sgml2lyx -> linuxdoc
+lrwxrwxrwx	root/root	usr/bin/sgml2rtf -> linuxdoc
+lrwxrwxrwx	root/root	usr/bin/sgml2txt -> linuxdoc
+lrwxrwxrwx	root/root	usr/bin/sgmlcheck -> linuxdoc
+-rwxr-xr-x	root/root	usr/bin/sgmlpre
+-rwxr-xr-x	root/root	usr/bin/sgmlsasp
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/entity-map/
+drwxr-xr-x	root/root	usr/share/entity-map/0.1.0/
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/GFextra.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/GFextra.2as
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/GFextra.2l1b -> GFextra.2ab
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/GFextra.2l1s -> GFextra.2as
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/GFextra.2rtf -> GFextra.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/GFextra.2tex
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/GFextra.2texi
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOdia
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOdia.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOdia.2as
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOdia.2html
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOdia.2l1b -> ISOdia.2ab
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOdia.2l1s -> ISOdia.2as
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOdia.2l1tr -> ISOdia.2tr
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOdia.2rtf -> ISOdia.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOdia.2tex
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOdia.2texi -> ISOdia.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOdia.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat1
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat1.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat1.2as
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat1.2html
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat1.2l1b
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat1.2l1s -> ISOlat1.2l1b
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat1.2l1tr -> ISOlat1.2l1b
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat1.2rtf -> ISOlat1.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat1.2tex
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat1.2texi -> ISOlat1.2ab
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat1.2tr -> ISOlat1.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat2
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat2.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat2.2as
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat2.2l1b -> ISOlat2.2ab
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOlat2.2l1s -> ISOlat2.2as
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat2.2rtf
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat2.2tex
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOlat2.2texi
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2as
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2html
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2l1b
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2l1s
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2l1tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2rtf
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2tex
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2texi
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOnum.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2as
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2html
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2l1b
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2l1s
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOpub.2l1tr -> ISOpub.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2rtf
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2tex
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2texi
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOpub.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2ab
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2as
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2html
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2l1b
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2l1s
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/ISOtech.2l1tr -> ISOtech.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2rtf
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2tex
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2texi
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/ISOtech.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/LDextra.2html
+lrwxrwxrwx	root/root	usr/share/entity-map/0.1.0/LDextra.2l1tr -> LDextra.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/LDextra.2tex
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/LDextra.2tr
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/greek.2html
+-rw-r--r--	root/root	usr/share/entity-map/0.1.0/lat1.2sdata
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools.pm
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/LinuxDocTools/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/BackEnd.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/CharEnts.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/FixRef.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/Html2Html.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/InfoUtils.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/Lang.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/Utils.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/LinuxDocTools/Vars.pm
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/Text/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/Text/EntityMap.pm
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/VERSION
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/dtd/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/common
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/deprec96
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/html32.dtd
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/isoent
+lrwxrwxrwx	root/root	usr/share/linuxdoc-tools/dtd/linuxdoc.dtd -> linuxdoc96.dtd
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/linuxdoc96.dtd
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/linuxdoc97.dtd
+lrwxrwxrwx	root/root	usr/share/linuxdoc-tools/dtd/linuxdoctr.dtd -> linuxdoctr96.dtd
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/linuxdoctr96.dtd
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/dtd/qwertz.dtd
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/filters/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/filters/lyx-preNSGMLS.pl
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/fmt/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/fmt/fmt_html.pl
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/fmt/fmt_info.pl
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/fmt/fmt_latex2e.pl
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/fmt/fmt_lyx.pl
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/fmt/fmt_rtf.pl
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/fmt/fmt_txt.pl
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/icons/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/icons/next.gif
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/icons/prev.gif
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/icons/toc.gif
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/linuxdoc-sgml.sty
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/linuxdoc-tools.catalog
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/linuxdoctr-sgml.sty
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/groff/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/groff/mapping
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/groff/math.README
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/groff/tr-mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/html/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/html/mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/info/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/info/mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/latex2e/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/latex2e/mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/latin1/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/latin1/README
+lrwxrwxrwx	root/root	usr/share/linuxdoc-tools/mappings/latin1/mapping -> ../groff/mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/lyx/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/lyx/mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/man/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/man/mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/nippon/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/nippon/README
+lrwxrwxrwx	root/root	usr/share/linuxdoc-tools/mappings/nippon/mapping -> ../groff/tr-mapping
+drwxr-xr-x	root/root	usr/share/linuxdoc-tools/mappings/rtf/
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/mappings/rtf/mapping
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/null.sty (EMPTY)
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/qwertz.sty
+-rw-r--r--	root/root	usr/share/linuxdoc-tools/sgml.dcl
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/linuxdoc.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rtf2rtf.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgml2html.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgml2info.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgml2latex.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgml2lyx.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgml2rtf.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgml2txt.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgmlcheck.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgmlpre.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/sgmlsasp.1.gz
+drwxr-xr-x	root/root	usr/share/sgml/
+drwxr-xr-x	root/root	usr/share/sgml/iso-entities-8879.1986/
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOamsa
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOamsb
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOamsc
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOamsn
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOamso
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOamsr
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISObox
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOcyr1
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOcyr2
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOdia
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOgrk1
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOgrk2
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOgrk3
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOgrk4
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOlat1
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOlat2
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOnum
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOpub
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/ISOtech
+-rw-r--r--	root/root	usr/share/sgml/iso-entities-8879.1986/iso-entities.cat

@@ -1,0 +1,17 @@
+# Description: Convert LinuxDoc SGML source into other formats
+# URL:         https://gitlab.com/agmartin/linuxdoc-tools
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  opensp
+
+name=linuxdoc-tools
+version=0.9.73
+release=1
+source=(https://gitlab.com/agmartin/$name/-/archive/upstream/$version/$name-upstream-$version.tar.gz)
+
+build() {
+	cd $name-upstream-$version
+
+	./configure --prefix=/usr --disable-docs
+	make
+	make DESTDIR=$PKG install
+}

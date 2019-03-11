@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/akosela.pub
+RWQL+NVTgarWbyfmYQ9XAwZMQxB1Casj31QdFz6AF2TPufQDXPrnH9ohTwjGZkjBivdrSP8+7ecJMMT0YcVqbw/FykXB2GBcCwU=
+SHA256 (Pkgfile) = 75326e1d6b91ec11dbff30b5a043ca9b19e480aba044aee01a128b8a2821cdfa
+SHA256 (.footprint) = 29e0cae2ff0e0a41d379b71801dece2dc2a4a071ae9cdf41ddc8052c8fbf6d49
+SHA256 (linuxdoc-tools-upstream-0.9.73.tar.gz) = 60c118f3ad086899d34e62eab51793922b7b54ca5fe69b893d73f85a0dab66db
