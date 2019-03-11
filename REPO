@@ -1,6 +1,7 @@
 d:svgalib
 d:pmars
 d:varnish
+d:cc65
 d:ptunnel
 d:hatop
 d:frotz
@@ -20,6 +21,10 @@ f:1b088096902340c9f08facba1cd40655:varnish/Pkgfile
 f:4d33d7998858b1ed19d362267b37809b:varnish/.footprint
 f:b90376eb30862d9d2194732e0221e6a8:varnish/.md5sum
 f:a9511370cb6ebabe2aecbad89ce08757:varnish/.signature
+f:6b731b1eb3ad691e25d479792837bf37:cc65/Pkgfile
+f:8d9ff93da6d9d9a98a1ea2a5d03e97eb:cc65/.footprint
+f:0a1fa66915685d48c1d40da79b97d87f:cc65/.md5sum
+f:ec250b3416240c7cfb07b51f3ce4c1ad:cc65/.signature
 f:60fd6f2020aaf9931184ee337be9f038:ptunnel/Pkgfile
 f:5eb2318dcdd7eaeea836687e01b37934:ptunnel/.footprint
 f:3a54caa4c521d16e3a6b26ae96d7cc51:ptunnel/.md5sum

@@ -1,0 +1,15 @@
+# Description: C compiler for 6502 based systems
+# URL:         https://cc65.github.io
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+
+name=cc65
+version=2.17
+release=1
+source=(https://github.com/cc65/cc65/archive/V$version.tar.gz)
+
+build() {
+	cd $name-$version
+	make
+	make PREFIX=$PKG/usr install
+	rm -rf $PKG/usr/share/{doc,info}
+}
