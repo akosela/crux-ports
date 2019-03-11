@@ -26,10 +26,10 @@ f:0e5cd2a132fcad24accbcbaf46df74fc:linuxdoc-tools/Pkgfile
 f:5afd8e553858195b4eb5802158a8278d:linuxdoc-tools/.footprint
 f:5774dcfc591cb267022fd7ce669714a0:linuxdoc-tools/.md5sum
 f:2bac556383c0b14e91951b9a23cb1021:linuxdoc-tools/.signature
-f:6b731b1eb3ad691e25d479792837bf37:cc65/Pkgfile
-f:8d9ff93da6d9d9a98a1ea2a5d03e97eb:cc65/.footprint
+f:6686b0dd34b8eaf84e126ca77525026d:cc65/Pkgfile
+f:ce7eae569d6e77542f69b2888cf44377:cc65/.footprint
 f:0a1fa66915685d48c1d40da79b97d87f:cc65/.md5sum
-f:ec250b3416240c7cfb07b51f3ce4c1ad:cc65/.signature
+f:bb26220d99a069328d1b31c65a1f2492:cc65/.signature
 f:60fd6f2020aaf9931184ee337be9f038:ptunnel/Pkgfile
 f:5eb2318dcdd7eaeea836687e01b37934:ptunnel/.footprint
 f:3a54caa4c521d16e3a6b26ae96d7cc51:ptunnel/.md5sum
