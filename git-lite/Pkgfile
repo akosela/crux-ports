@@ -3,7 +3,7 @@
 # Maintainer:  Andy Kosela, akosela at andykosela dot com
 
 name=git-lite
-version=2.20.1
+version=2.21.0
 release=1
 source=(http://www.kernel.org/pub/software/scm/git/git-{,manpages-}$version.tar.xz)
 
@@ -16,10 +16,10 @@ build() {
 
 	cd $SRC
 	for i in man*; do
-		install -d $PKG/usr/man/$i
-		install -m 644 $i/* $PKG/usr/man/$i
+		install -d $PKG/usr/share/man/$i
+		install -m 644 $i/* $PKG/usr/share/man/$i
 	done
 
-	rm $PKG/usr/man/man1/gitk.1
+	rm $PKG/usr/share/man/man1/gitk.1
 	rm -rf $PKG/usr/share/locale
 }
