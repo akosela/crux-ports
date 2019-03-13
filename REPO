@@ -3,6 +3,7 @@ d:pmars
 d:varnish
 d:linuxdoc-tools
 d:cc65
+d:opentyrian
 d:ptunnel
 d:hatop
 d:frotz
@@ -30,6 +31,10 @@ f:6686b0dd34b8eaf84e126ca77525026d:cc65/Pkgfile
 f:ce7eae569d6e77542f69b2888cf44377:cc65/.footprint
 f:0a1fa66915685d48c1d40da79b97d87f:cc65/.md5sum
 f:bb26220d99a069328d1b31c65a1f2492:cc65/.signature
+f:c99d64bdbb9bd0087d9637e7bcfa9485:opentyrian/Pkgfile
+f:df31f762817c8d44b816c5757e67ceb1:opentyrian/.footprint
+f:beddacedb9e7738b7ca08738d72ad5eb:opentyrian/.md5sum
+f:7a61755694620b2c7365bff5bf57d038:opentyrian/.signature
 f:60fd6f2020aaf9931184ee337be9f038:ptunnel/Pkgfile
 f:5eb2318dcdd7eaeea836687e01b37934:ptunnel/.footprint
 f:3a54caa4c521d16e3a6b26ae96d7cc51:ptunnel/.md5sum

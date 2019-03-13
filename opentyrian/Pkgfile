@@ -1,0 +1,15 @@
+# Description: Open source port of the DOS game Tyrian (1995)
+# URL:         https://github.com/akosela/opentyrian
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  libsdl
+
+name=opentyrian
+version=2.1.20190312
+release=1
+source=(https://github.com/akosela/opentyrian/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	make prefix=/usr
+	make prefix=/usr DESTDIR=$PKG install
+}

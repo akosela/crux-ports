@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/akosela.pub
+RWQL+NVTgarWb3+CuAOyN3qVKzxQ1f8wGL7xxgMkjsqshnClyI14W3TauUXZ7EOGO+wAcrR1F+vyIs0xeuXCU3Xx3HftN6IkiAw=
+SHA256 (Pkgfile) = f00968ab086a73c5cf71def6545b15d9b80f9238f19047d69e4450cff18c667a
+SHA256 (.footprint) = 96612d049f489d36eff231cb9eeda22e22f639cf8dbb0361d53075108af66ad2
+SHA256 (2.1.20190312.tar.gz) = 726e19e997078705aa5c814a18c10de4f6ea8eb353de5ecf532f51953b7f2ee1
