@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/akosela.pub
-RWQL+NVTgarWb8nb1PZXpSRP0/XcFLuuJ/i7ayeb8tQnCcHFsuMQPTATObRVcgkYw1V4aFUsvITTq/ZQh0p5x8/VIudKA+QksAM=
-SHA256 (Pkgfile) = c9d9c03defbabe9478f06b3ee1d93e5c04f85f16f45f4c72aaf9ce90ef8a5928
+RWQL+NVTgarWbwG3+fAjhFm9MwsAfpIPRyX5CpSiI7EBni46yQJkaRkgREIX4EuB+L5IBv/KeITF2F4Zxe1N+hrwcPWVUlOgrgA=
+SHA256 (Pkgfile) = 5987638731ee125fcc5fda315e23bbfd787d517a13ba011ec2d958be2a53716f
 SHA256 (.footprint) = 9afd7d631a6aae532d8c7285a393f4c462e58497c29f37f02d716e2e3035d543
 SHA256 (ATARI800_4_0_0.tar.gz) = a72645c51b76e4225f61a615a6ba448d6554aae330d158dd8cb22c0cfa0831e6
 SHA256 (atari800-4.0.0-configure.patch) = b3e6da6ab39361b52203ed82685b066c31b0eb32b07e3264efa0f8475007fe71

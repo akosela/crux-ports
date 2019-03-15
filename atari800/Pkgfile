@@ -21,6 +21,7 @@ build() {
 	cd src
 	./autogen.sh
 	./configure --with-video=$option --prefix=/usr
+	make
 	make DESTDIR=$PKG DOC_DIR=/$pkgdir install
 
 	install -m 644 ../DOC/*.txt $PKG/$pkgdir
