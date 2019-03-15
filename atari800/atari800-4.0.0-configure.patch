@@ -1,0 +1,11 @@
+--- atari800-ATARI800_4_0_0.orig/src/configure.ac	2019-03-10 01:18:50.759702169 -0600
++++ atari800-ATARI800_4_0_0/src/configure.ac	2019-03-10 01:19:16.706368215 -0600
+@@ -999,7 +999,7 @@
+           [Provide IDE emulation (default=ON)],
+           IDE,[Define to add IDE harddisk emulation.]
+          )
+-if [[ "$WANT_IDE" == "yes" ]]; then
++if [[ "$WANT_IDE" = "yes" ]]; then
+     AC_SYS_LARGEFILE
+     AC_FUNC_FSEEKO
+     OBJS="$OBJS ide.o"

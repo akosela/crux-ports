@@ -1,0 +1,30 @@
+# Description: Portable and free Atari 8-bit emulator
+# URL:         http://atari800.github.io
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  libsdl
+# Option:      sdl ncurses
+
+name=atari800
+version=4.0.0
+release=1
+source=(https://github.com/atari800/atari800/archive/ATARI800_4_0_0.tar.gz \
+	$name-$version-configure.patch)
+option=sdl
+
+pkgdir=usr/share/atari800
+
+build() {
+	cd $name-ATARI800_4_0_0
+
+	patch -p1 -i $SRC/$name-$version-configure.patch
+
+	cd src
+	./autogen.sh
+	./configure --with-video=$option --prefix=/usr
+	make DESTDIR=$PKG DOC_DIR=/$pkgdir install
+
+	install -m 644 ../DOC/*.txt $PKG/$pkgdir
+	install -m 644 ../DOC/FAQ $PKG/$pkgdir
+	install -d $PKG/$pkgdir/util
+	install -m 644 ../util/color* $PKG/$pkgdir/util
+}
