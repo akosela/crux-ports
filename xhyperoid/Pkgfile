@@ -1,0 +1,17 @@
+# Description: Port of Hyperoid game (1991)
+# URL:         https://github.com/akosela/xhyperoid
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+# Depends on:  svgalib alsa-oss
+# Option:      vga xwin
+
+name=xhyperoid
+version=1.2
+release=1
+source=(https://github.com/akosela/xhyperoid/archive/$version.tar.gz)
+option=vga
+
+build() {
+	cd $name-$version
+	make PREFIX=/usr $option
+	make PREFIX=$PKG/usr install
+}
