@@ -2,7 +2,7 @@
 # URL:         http://www.koth.org/pmars
 # Maintainer:  Andy Kosela, akosela at andykosela dot com
 # Depends on:  svgalib
-# Option:      svga, curses, xwin
+# Option:      svga curses xwin
 
 name=pmars
 version=0.9.3
