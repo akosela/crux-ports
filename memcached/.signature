@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/akosela.pub
-RWQL+NVTgarWb8uxt8rT1/uTt6zrxDRqpxjXuNDsxFzPfuCK+CwZGspn45jCRXrJoEXqqIV4fsCClZYA04AJp7Cj1Fzf18PhXAQ=
-SHA256 (Pkgfile) = 6acf698c52073f6851131ba7fc3cf336a57fe198098dcb4ebb14d4f4353f94ea
+RWQL+NVTgarWb2WvVwfFOkaEpm3/JJZDRVrCEDNh0JLgrmkFnE9ir/JWHYtIZOPwRy+rtJ2rTJajGX3HB4KVkWB14p3d+6uHXwA=
+SHA256 (Pkgfile) = 7a13eb82fd1f4c526fcb479f7820493e526aa344f41658cdfd1e9bd64714311b
 SHA256 (.footprint) = d1639885e299dd05df0bed5012fd48128e57ee89519c3cbc40b2a7126d45d639
-SHA256 (memcached-1.5.12.tar.gz) = c02f97d5685617b209fbe25f3464317b234d765b427d254c2413410a5c095b29
+SHA256 (memcached-1.5.16.tar.gz) = 45a22c890dc1edb27db567fb4c9c25b91bfd578477c08c5fb10dca93cc62cc5a
