@@ -33,10 +33,10 @@ f:0e5cd2a132fcad24accbcbaf46df74fc:linuxdoc-tools/Pkgfile
 f:5afd8e553858195b4eb5802158a8278d:linuxdoc-tools/.footprint
 f:5774dcfc591cb267022fd7ce669714a0:linuxdoc-tools/.md5sum
 f:2bac556383c0b14e91951b9a23cb1021:linuxdoc-tools/.signature
-f:6686b0dd34b8eaf84e126ca77525026d:cc65/Pkgfile
-f:ce7eae569d6e77542f69b2888cf44377:cc65/.footprint
-f:0a1fa66915685d48c1d40da79b97d87f:cc65/.md5sum
-f:bb26220d99a069328d1b31c65a1f2492:cc65/.signature
+f:de50067c28415fcc7b603f12a753f18c:cc65/Pkgfile
+f:04879aa97407d631ddb517162485000a:cc65/.footprint
+f:f9176129c3038122935688ea709c28b4:cc65/.md5sum
+f:f824c3dc2538f16e1a3d6c1abe34b27d:cc65/.signature
 f:c99d64bdbb9bd0087d9637e7bcfa9485:opentyrian/Pkgfile
 f:df31f762817c8d44b816c5757e67ceb1:opentyrian/.footprint
 f:beddacedb9e7738b7ca08738d72ad5eb:opentyrian/.md5sum

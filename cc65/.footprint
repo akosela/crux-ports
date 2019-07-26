@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/share/cc65/
 drwxr-xr-x	root/root	usr/share/cc65/asminc/
 -rw-r--r--	root/root	usr/share/cc65/asminc/_file.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/_heap.inc
+-rw-r--r--	root/root	usr/share/cc65/asminc/accelerator.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/apple2.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/apple2.mac
 -rw-r--r--	root/root	usr/share/cc65/asminc/atari.inc
@@ -36,6 +37,7 @@ drwxr-xr-x	root/root	usr/share/cc65/asminc/
 -rw-r--r--	root/root	usr/share/cc65/asminc/cbm510.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/cbm610.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/cbm_filetype.inc
+-rw-r--r--	root/root	usr/share/cc65/asminc/cbm_kernal.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/cpu.mac
 -rw-r--r--	root/root	usr/share/cc65/asminc/creativision.inc
 -rw-r--r--	root/root	usr/share/cc65/asminc/ctype.inc
@@ -84,15 +86,18 @@ drwxr-xr-x	root/root	usr/share/cc65/cfg/
 -rw-r--r--	root/root	usr/share/cc65/cfg/apple2enh-overlay.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/apple2enh-system.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/apple2enh.cfg
+-rw-r--r--	root/root	usr/share/cc65/cfg/atari-asm-xex.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari-asm.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari-cart.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari-cassette.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari-overlay.cfg
+-rw-r--r--	root/root	usr/share/cc65/cfg/atari-xex.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari2600.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atari5200.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atarixl-largehimem.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atarixl-overlay.cfg
+-rw-r--r--	root/root	usr/share/cc65/cfg/atarixl-xex.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atarixl.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/atmos.cfg
 -rw-r--r--	root/root	usr/share/cc65/cfg/bbc.cfg
@@ -187,6 +192,7 @@ drwxr-xr-x	root/root	usr/share/cc65/include/
 -rw-r--r--	root/root	usr/share/cc65/include/_6545.h
 -rw-r--r--	root/root	usr/share/cc65/include/_6551.h
 -rw-r--r--	root/root	usr/share/cc65/include/_antic.h
+-rw-r--r--	root/root	usr/share/cc65/include/_atarios.h
 -rw-r--r--	root/root	usr/share/cc65/include/_gtia.h
 -rw-r--r--	root/root	usr/share/cc65/include/_heap.h
 -rw-r--r--	root/root	usr/share/cc65/include/_mikey.h
@@ -201,6 +207,7 @@ drwxr-xr-x	root/root	usr/share/cc65/include/
 -rw-r--r--	root/root	usr/share/cc65/include/_vdc.h
 -rw-r--r--	root/root	usr/share/cc65/include/_vic.h
 -rw-r--r--	root/root	usr/share/cc65/include/_vic2.h
+-rw-r--r--	root/root	usr/share/cc65/include/accelerator.h
 -rw-r--r--	root/root	usr/share/cc65/include/apple2.h
 -rw-r--r--	root/root	usr/share/cc65/include/apple2_filetype.h
 -rw-r--r--	root/root	usr/share/cc65/include/apple2enh.h
@@ -219,6 +226,8 @@ drwxr-xr-x	root/root	usr/share/cc65/include/
 -rw-r--r--	root/root	usr/share/cc65/include/cbm510.h
 -rw-r--r--	root/root	usr/share/cc65/include/cbm610.h
 -rw-r--r--	root/root	usr/share/cc65/include/cbm_filetype.h
+-rw-r--r--	root/root	usr/share/cc65/include/cbm_petscii_charmap.h
+-rw-r--r--	root/root	usr/share/cc65/include/cbm_screen_charmap.h
 -rw-r--r--	root/root	usr/share/cc65/include/cc65.h
 -rw-r--r--	root/root	usr/share/cc65/include/conio.h
 -rw-r--r--	root/root	usr/share/cc65/include/creativision.h
@@ -280,6 +289,7 @@ drwxr-xr-x	root/root	usr/share/cc65/include/mouse/
 -rw-r--r--	root/root	usr/share/cc65/include/string.h
 -rw-r--r--	root/root	usr/share/cc65/include/supervision.h
 drwxr-xr-x	root/root	usr/share/cc65/include/sys/
+-rw-r--r--	root/root	usr/share/cc65/include/sys/stat.h
 -rw-r--r--	root/root	usr/share/cc65/include/sys/types.h
 -rw-r--r--	root/root	usr/share/cc65/include/sys/utsname.h
 -rw-r--r--	root/root	usr/share/cc65/include/target.h
@@ -300,6 +310,7 @@ drwxr-xr-x	root/root	usr/share/cc65/lib/
 -rw-r--r--	root/root	usr/share/cc65/lib/apple2enh.lib
 -rw-r--r--	root/root	usr/share/cc65/lib/atari.lib
 -rw-r--r--	root/root	usr/share/cc65/lib/atari2600.lib
+-rw-r--r--	root/root	usr/share/cc65/lib/atari5200-conioscreen-20x12.o
 -rw-r--r--	root/root	usr/share/cc65/lib/atari5200.lib
 -rw-r--r--	root/root	usr/share/cc65/lib/atarixl.lib
 -rw-r--r--	root/root	usr/share/cc65/lib/atmos.lib
@@ -508,6 +519,7 @@ drwxr-xr-x	root/root	usr/share/cc65/target/c128/drv/mou/
 drwxr-xr-x	root/root	usr/share/cc65/target/c128/drv/ser/
 -rw-r--r--	root/root	usr/share/cc65/target/c128/drv/ser/c128-swlink.ser
 drwxr-xr-x	root/root	usr/share/cc65/target/c128/drv/tgi/
+-rw-r--r--	root/root	usr/share/cc65/target/c128/drv/tgi/c128-hi.tgi
 -rw-r--r--	root/root	usr/share/cc65/target/c128/drv/tgi/c128-vdc.tgi
 -rw-r--r--	root/root	usr/share/cc65/target/c128/drv/tgi/c128-vdc2.tgi
 drwxr-xr-x	root/root	usr/share/cc65/target/c16/
@@ -619,6 +631,9 @@ drwxr-xr-x	root/root	usr/share/cc65/target/telestrat/drv/tgi/
 -rw-r--r--	root/root	usr/share/cc65/target/telestrat/drv/tgi/telestrat-240-200-2.tgi
 drwxr-xr-x	root/root	usr/share/cc65/target/vic20/
 drwxr-xr-x	root/root	usr/share/cc65/target/vic20/drv/
+drwxr-xr-x	root/root	usr/share/cc65/target/vic20/drv/emd/
+-rw-r--r--	root/root	usr/share/cc65/target/vic20/drv/emd/vic20-georam.emd
+-rw-r--r--	root/root	usr/share/cc65/target/vic20/drv/emd/vic20-rama.emd
 drwxr-xr-x	root/root	usr/share/cc65/target/vic20/drv/joy/
 -rw-r--r--	root/root	usr/share/cc65/target/vic20/drv/joy/vic20-ptvjoy.joy
 -rw-r--r--	root/root	usr/share/cc65/target/vic20/drv/joy/vic20-stdjoy.joy
