@@ -76,7 +76,7 @@ drwxr-xr-x	root/root	usr/lib/git-core/
 -rwxr-xr-x	root/root	usr/lib/git-core/git-init-db
 -rwxr-xr-x	root/root	usr/lib/git-core/git-instaweb
 -rwxr-xr-x	root/root	usr/lib/git-core/git-interpret-trailers
--rwxr-xr-x	root/root	usr/lib/git-core/git-legacy-rebase
+-rwxr-xr-x	root/root	usr/lib/git-core/git-legacy-stash
 -rwxr-xr-x	root/root	usr/lib/git-core/git-log
 -rwxr-xr-x	root/root	usr/lib/git-core/git-ls-files
 -rwxr-xr-x	root/root	usr/lib/git-core/git-ls-remote
@@ -118,7 +118,6 @@ drwxr-xr-x	root/root	usr/lib/git-core/
 -rwxr-xr-x	root/root	usr/lib/git-core/git-rebase
 -rw-r--r--	root/root	usr/lib/git-core/git-rebase--am
 -rw-r--r--	root/root	usr/lib/git-core/git-rebase--common
--rwxr-xr-x	root/root	usr/lib/git-core/git-rebase--interactive
 -rw-r--r--	root/root	usr/lib/git-core/git-rebase--preserve-merges
 -rwxr-xr-x	root/root	usr/lib/git-core/git-receive-pack
 -rwxr-xr-x	root/root	usr/lib/git-core/git-reflog
@@ -141,7 +140,6 @@ drwxr-xr-x	root/root	usr/lib/git-core/
 -rwxr-xr-x	root/root	usr/lib/git-core/git-rm
 -rwxr-xr-x	root/root	usr/lib/git-core/git-send-email
 -rwxr-xr-x	root/root	usr/lib/git-core/git-send-pack
--rwxr-xr-x	root/root	usr/lib/git-core/git-serve
 -rw-r--r--	root/root	usr/lib/git-core/git-sh-i18n
 -rwxr-xr-x	root/root	usr/lib/git-core/git-sh-i18n--envsubst
 -rw-r--r--	root/root	usr/lib/git-core/git-sh-setup
@@ -195,6 +193,7 @@ drwxr-xr-x	root/root	usr/lib/git-core/mergetools/
 -rw-r--r--	root/root	usr/lib/git-core/mergetools/meld
 -rw-r--r--	root/root	usr/lib/git-core/mergetools/opendiff
 -rw-r--r--	root/root	usr/lib/git-core/mergetools/p4merge
+-rw-r--r--	root/root	usr/lib/git-core/mergetools/smerge
 -rw-r--r--	root/root	usr/lib/git-core/mergetools/tkdiff
 -rw-r--r--	root/root	usr/lib/git-core/mergetools/tortoisemerge
 -rw-r--r--	root/root	usr/lib/git-core/mergetools/vimdiff
@@ -328,7 +327,6 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/git-reflog.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-remote-ext.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-remote-fd.1.gz
--rw-r--r--	root/root	usr/share/man/man1/git-remote-testgit.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-remote.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-repack.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-replace.1.gz
@@ -374,7 +372,6 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/git-worktree.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-write-tree.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git.1.gz
--rw-r--r--	root/root	usr/share/man/man1/gitremote-helpers.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gitweb.1.gz
 drwxr-xr-x	root/root	usr/share/man/man5/
 -rw-r--r--	root/root	usr/share/man/man5/gitattributes.5.gz
@@ -392,6 +389,7 @@ drwxr-xr-x	root/root	usr/share/man/man7/
 -rw-r--r--	root/root	usr/share/man/man7/giteveryday.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/gitglossary.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/gitnamespaces.7.gz
+-rw-r--r--	root/root	usr/share/man/man7/gitremote-helpers.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/gitrevisions.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/gitsubmodules.7.gz
 -rw-r--r--	root/root	usr/share/man/man7/gittutorial-2.7.gz

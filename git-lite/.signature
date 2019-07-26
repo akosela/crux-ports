@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/akosela.pub
-RWQL+NVTgarWbwXlKMfo/Im6wjopLGO2z8vccykU6B55xIB9FSieGJtVoz/u6yuma4yS+FxZ/e2c7DEnqGETYRExJqy7q0y9tAk=
-SHA256 (Pkgfile) = 97297183b3dcf95da244c9551bb7fb6bd9903c9ba986ad4c9d5ce347eac7652e
-SHA256 (.footprint) = 26c19b95e28d8232ec2343e44907df7f880bbf9e3addae1f01419f7364a44980
-SHA256 (git-2.21.0.tar.xz) = 8ccb1ce743ee991d91697e163c47c11be4bf81efbdd9fb0b4a7ad77cc0020d28
-SHA256 (git-manpages-2.21.0.tar.xz) = 2f68dc24931c0d05f70167d9ffe6c33ef6b0b6c75b92301ddcda55b9b0f5ec51
+RWQL+NVTgarWb7id4DguZsIOK5b6Bpq+LotELEaFM4Il2ye/yS5Yc8OoWDeptfpV9BRKU5tqnLPKB7GGz6CFXHH893LlAN+LCwY=
+SHA256 (Pkgfile) = 5140e4ef4186983df9458c05df0505c74e976436628a42e854d020f4c8aa58d1
+SHA256 (.footprint) = c1dc87b974b3e092c47f987a9c90db22bb5cc13a441f716cc8e45d9623e04e8f
+SHA256 (git-2.22.0.tar.xz) = 159e4b599f8af4612e70b666600a3139541f8bacc18124daf2cbe8d1b934f29f
+SHA256 (git-manpages-2.22.0.tar.xz) = 4e2cfda33d8e86812bfcdb907478d1144412ce472c32edd0219b3c0201c7ee3a
