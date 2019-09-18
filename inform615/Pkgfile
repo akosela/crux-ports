@@ -1,0 +1,14 @@
+# Description: Inform 6 programming language
+# URL:         https://github.com/akosela/inform615
+# Maintainer:  Andy Kosela, akosela at andykosela dot com
+
+name=inform615
+version=6.15
+release=1
+source=(https://github.com/akosela/inform615/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	make
+	make DESTDIR=$PKG install
+}

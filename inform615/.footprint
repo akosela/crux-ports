@@ -1,0 +1,33 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/i6
+-rwxr-xr-x	root/root	usr/bin/inform
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/inform615/
+drwxr-xr-x	root/root	usr/share/inform615/bin/
+-rw-r--r--	root/root	usr/share/inform615/bin/a8.bin
+drwxr-xr-x	root/root	usr/share/inform615/demos/
+-rw-r--r--	root/root	usr/share/inform615/demos/minform.inf
+drwxr-xr-x	root/root	usr/share/inform615/minform/
+lrwxrwxrwx	root/root	usr/share/inform615/minform/Grammar.h -> /usr/share/inform615/minform/grammar.h
+lrwxrwxrwx	root/root	usr/share/inform615/minform/Parser.h -> /usr/share/inform615/minform/parser.h
+-rw-r--r--	root/root	usr/share/inform615/minform/README
+lrwxrwxrwx	root/root	usr/share/inform615/minform/VerbLib.h -> /usr/share/inform615/minform/verblib.h
+-rw-r--r--	root/root	usr/share/inform615/minform/grammar.h
+-rw-r--r--	root/root	usr/share/inform615/minform/parser.h
+-rw-r--r--	root/root	usr/share/inform615/minform/verblib.h
+drwxr-xr-x	root/root	usr/share/inform615/tutor/
+-rw-r--r--	root/root	usr/share/inform615/tutor/Beginner.txt
+-rw-r--r--	root/root	usr/share/inform615/tutor/alice.txt
+-rw-r--r--	root/root	usr/share/inform615/tutor/alice3.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house01.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house02.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house03.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house04.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house05.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house06.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/house07.inf
+-rw-r--r--	root/root	usr/share/inform615/tutor/shell.inf
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man6/
+-rw-r--r--	root/root	usr/share/man/man6/i6.6.gz
