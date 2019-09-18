@@ -9,6 +9,7 @@ d:ptunnel
 d:hatop
 d:atari800
 d:frotz
+d:inform615
 d:git-lite
 d:go-cs
 d:memcached
@@ -59,6 +60,10 @@ f:a18a272c5d6c4024e70d1269d842c0ce:frotz/Pkgfile
 f:c4feac852e357c4ef6fc0cc9d8b1e6c5:frotz/.footprint
 f:bb23ceb362dcd1f89b1cc4a01f7bbc8c:frotz/.md5sum
 f:cde731ecf769c976b6c2b8bc3d0637f2:frotz/.signature
+f:a448b05df926385b493a8220309333cb:inform615/Pkgfile
+f:147c0da21b9049990ff8bc91780a2fdb:inform615/.footprint
+f:e4f937729aaf8f69a4d2fd45a4e6e3ae:inform615/.md5sum
+f:ef63c84456414a20c52efc315ccf795d:inform615/.signature
 f:10b4c30e6f1c6867cf9de1739f1ee860:git-lite/Pkgfile
 f:4110bc1ab8b3fc0a9f355de9eb2d5c94:git-lite/.footprint
 f:1eb4688dd46c9d92ee2489c75aa05593:git-lite/.md5sum
