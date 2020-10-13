@@ -3,7 +3,7 @@
 # Maintainer:  Andy Kosela, akosela at andykosela dot com
 
 name=svgalib
-version=1.9.26
+version=1.9.27
 release=1
 source=(https://github.com/akosela/svgalib/archive/$version.tar.gz)
 
