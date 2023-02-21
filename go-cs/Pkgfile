@@ -3,7 +3,7 @@
 # Maintainer:  Andy Kosela, akosela at andykosela dot com
 
 name=go-cs
-version=1.0
+version=1.1
 release=1
 source=(https://github.com/akosela/go-cs/archive/v$version.tar.gz)
 

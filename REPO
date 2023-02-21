@@ -31,9 +31,9 @@ f:1eb4688dd46c9d92ee2489c75aa05593:git-lite/.md5sum
 f:b8dbbd5ea0e6cb2ec80c1ce4a17b2587:git-lite/.signature
 f:10b4c30e6f1c6867cf9de1739f1ee860:git-lite/Pkgfile
 f:7726d5ffc572a7123f191e49045bf0d9:go-cs/.footprint
-f:cac6d02e3c7e217934adfdd45b7cffae:go-cs/.md5sum
-f:3cba93beaba58ad7b6f5b55347a19208:go-cs/.signature
-f:4d101796424f9914c1f425c3ff244200:go-cs/Pkgfile
+f:012b4160c1995c4c0cd3ecd95ad93a8b:go-cs/.md5sum
+f:a9258c5d7be2ef680f5d23a1101c306e:go-cs/.signature
+f:c04591d75dfd7fecbee5b6f4e5e109dc:go-cs/Pkgfile
 f:635159de3f7387667f496b612fb787d2:hatop/.footprint
 f:17cce6f2be5e5816af0db2b9fc7a85df:hatop/.md5sum
 f:c9e9da50f3588fabeac5598fa786ca07:hatop/.signature
